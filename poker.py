@@ -55,8 +55,8 @@ class Player:
         self.hand.append(card)
     def __str__(self):
         result = ""
-        for i in self.hand:
-            result += i.__str__() + "     "
+        for card in self.hand:
+            result += card.__str__() + "     "
         return result
     def get_value(self):
         result = 0
