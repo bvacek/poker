@@ -60,7 +60,12 @@ class Player:
         return result
     def get_value(self):
         result = 0
+        values = []
         for card in self.hand:
+            values.append(card.get_value())
             result += card.get_value()
+        while result > 21 and values.__contains__(11):
+            values[values.index(11)] = 1
+            result -= 10
         return result
 

@@ -60,7 +60,7 @@ while playing:
                 print()
         else:
             hitting = False
-    while dealer_sum < 16 and player_sum <= 21:
+    while dealer_sum < 17 and player_sum <= 21:
         print()
         print("The dealer hits.")
         myDeck.deal(dealer,1)
@@ -70,6 +70,9 @@ while playing:
         print()
     if dealer_sum > 21:
         print("The dealer busts!")
+        print()
+    elif player_sum <= 21:
+        print("The dealer stays.")
         print()
     if 21 >= player_sum > dealer_sum or dealer_sum > 21:
         print("You won!")
