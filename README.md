@@ -1,7 +1,7 @@
 # poker
 A series of poker games played from the command line.
-### poker.py
+## poker.py
 file containing classes for basic poker components (Cards, Decks, and Players)
 
-### blackjack.py
-an implementation of the poker classes for a game of blackjack (21)
+## blackjack.py
+an implementation of a Blackjack(21) using the poker classes.
