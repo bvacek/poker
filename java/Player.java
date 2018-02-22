@@ -38,4 +38,12 @@ public class Player {
 		}
 		return result;
 	}
+
+	public String toString() {
+		String result = "";
+		for (int i = 0; i < this.hand.length; i++) {
+			result += hand[i].toString() + " ";
+		}
+		return result;
+	}
 }
