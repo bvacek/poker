@@ -14,4 +14,6 @@ an implementation of a Blackjack(21) using the poker classes.
 
 ### Deck.java
 
+### Player.java
+
 ### test.java
