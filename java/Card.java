@@ -8,7 +8,13 @@ public class Card {
 	}
 
 	public int getValue() {
-		return this.value;
+		if (this.value > 1 && this.value < 11) {
+			return this.value;
+		} else if (this.value == 1) {
+			return 11;
+		} else {
+			return 10;
+		}
 	}
 
 	public String toString() {
