@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Deck {
 	private ArrayList<Card> cards = new ArrayList<Card>();
-	private static String[] suits = {"Hearts", "Diamonds", "Jacks", "Spades"}; 
+	private static String[] suits = {"Hearts", "Diamonds", "Clubs", "Spades"}; 
 
 	public Deck() {
 		for (int i = 0; i < this.suits.length; i++) {
